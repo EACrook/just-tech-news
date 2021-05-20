@@ -4,7 +4,7 @@ const { truncate } = require('./User');
 // Create our Post model
 class Post extends Model {}
 
-// create fielods/columns for Post model
+// create fields/columns for Post model
 Post.init(
     {
         id: {
